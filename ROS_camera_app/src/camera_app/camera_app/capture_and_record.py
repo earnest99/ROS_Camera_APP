@@ -76,19 +76,16 @@ class ImgCapture(Node):
     def img_callback1(self, msg):
         self.img1 = self.cv_bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
         if self.ori > 3 and self.recording:
-            print(self.ori,self.emo,self.can)
             self.write_frame(self.img1)
 
     def img_callback2(self, msg):
         self.img2 = self.cv_bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
         if self.emo > 1 and self.recording:
-            print(self.ori,self.emo,self.can)
             self.write_frame(self.img2)
     
     def img_callback3(self, msg):
         self.img3 = self.cv_bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
         if self.can > 1 and self.recording:
-            print(self.ori,self.emo,self.can)
             self.write_frame(self.img3)
 
 def main():
