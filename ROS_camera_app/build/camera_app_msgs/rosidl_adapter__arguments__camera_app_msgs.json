@@ -1,0 +1,6 @@
+{
+  "package_name": "camera_app_msgs",
+  "non_idl_tuples": [
+    "/home/earnest/camera_study/src/camera_app_msgs:srv/Capture.srv"
+  ]
+}

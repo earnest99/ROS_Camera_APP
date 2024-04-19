@@ -1,0 +1,51 @@
+[0.232s] Invoking command in '/home/earnest/camera_study/build/camera_app_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/earnest/camera_study/install/camera_app:/opt/ros/humble /usr/bin/cmake --build /home/earnest/camera_study/build/camera_app_msgs -- -j12 -l12
+[0.252s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.358s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.363s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.370s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.421s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.599s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.599s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.599s]   camera_app_msgs --arguments-file
+[0.599s]   /home/earnest/camera_study/build/camera_app_msgs/rosidl_adapter__arguments__camera_app_msgs.json
+[0.599s]   --output-dir
+[0.599s]   /home/earnest/camera_study/build/camera_app_msgs/rosidl_adapter/camera_app_msgs
+[0.599s]   --output-file
+[0.599s]   /home/earnest/camera_study/build/camera_app_msgs/rosidl_adapter/camera_app_msgs.idls)
+[0.599s]   returned error code 1:
+[0.599s] 
+[0.599s]   Traceback (most recent call last):
+[0.599s] 
+[0.599s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.599s]       return _run_code(code, main_globals, None,
+[0.599s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.600s]       exec(code, run_globals)
+[0.600s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.600s]       sys.exit(main())
+[0.600s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.600s]       abs_idl_file = convert_to_idl(
+[0.600s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.600s]       return convert_srv_to_idl(
+[0.600s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.600s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.600s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.600s]       request_message = parse_message_string(
+[0.600s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.600s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.600s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.600s]       self.base_type = BaseType(
+[0.600s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.600s]       raise InvalidResourceName(
+[0.600s] 
+[0.600s]   rosidl_adapter.parser.InvalidResourceName: 'capture_Request' is an invalid
+[0.601s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.601s] 
+[0.601s] Call Stack (most recent call first):
+[0.601s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.601s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.601s] 
+[0.601s] [0m
+[0.601s] -- Configuring incomplete, errors occurred!
+[0.601s] See also "/home/earnest/camera_study/build/camera_app_msgs/CMakeFiles/CMakeOutput.log".
+[0.603s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.604s] Invoked command in '/home/earnest/camera_study/build/camera_app_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/earnest/camera_study/install/camera_app:/opt/ros/humble /usr/bin/cmake --build /home/earnest/camera_study/build/camera_app_msgs -- -j12 -l12

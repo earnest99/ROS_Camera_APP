@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/camera_app/camera_app.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_app/camera_app.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_app/camera_app.egg-info/entry_points.txt
+writing requirements to ../../build/camera_app/camera_app.egg-info/requires.txt
+writing top-level names to ../../build/camera_app/camera_app.egg-info/top_level.txt
+reading manifest file '../../build/camera_app/camera_app.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_app/camera_app.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/camera.launch.py -> /home/earnest/camera_study/install/camera_app/share/camera_app/launch
+running install_egg_info
+removing '/home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/camera_app/camera_app.egg-info to /home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app-0.0.0-py3.10.egg-info
+running install_scripts
+Installing canny script to /home/earnest/camera_study/install/camera_app/lib/camera_app
+Installing capture_and_record script to /home/earnest/camera_study/install/camera_app/lib/camera_app
+Installing emoji_overlay script to /home/earnest/camera_study/install/camera_app/lib/camera_app
+Installing img_publisher script to /home/earnest/camera_study/install/camera_app/lib/camera_app
+writing list of installed files to '/home/earnest/camera_study/build/camera_app/install.log'

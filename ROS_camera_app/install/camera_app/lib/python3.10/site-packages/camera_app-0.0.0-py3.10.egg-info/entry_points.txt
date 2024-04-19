@@ -1,0 +1,6 @@
+[console_scripts]
+canny = camera_app.canny:main
+capture_and_record = camera_app.capture_and_record:main
+emoji_overlay = camera_app.emoji_overlay:main
+img_publisher = camera_app.img_publisher:main
+

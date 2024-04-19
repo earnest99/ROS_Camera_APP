@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/camera_app/camera_app.egg-info
+writing ../../build/camera_app/camera_app.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_app/camera_app.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_app/camera_app.egg-info/entry_points.txt
+writing requirements to ../../build/camera_app/camera_app.egg-info/requires.txt
+writing top-level names to ../../build/camera_app/camera_app.egg-info/top_level.txt
+writing manifest file '../../build/camera_app/camera_app.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_app/camera_app.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_app/camera_app.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/earnest/camera_study/build/camera_app/build
+creating /home/earnest/camera_study/build/camera_app/build/lib
+creating /home/earnest/camera_study/build/camera_app/build/lib/camera_app
+copying camera_app/__init__.py -> /home/earnest/camera_study/build/camera_app/build/lib/camera_app
+copying camera_app/img_publisher.py -> /home/earnest/camera_study/build/camera_app/build/lib/camera_app
+running install
+running install_lib
+creating /home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app
+copying /home/earnest/camera_study/build/camera_app/build/lib/camera_app/__init__.py -> /home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app
+copying /home/earnest/camera_study/build/camera_app/build/lib/camera_app/img_publisher.py -> /home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app
+byte-compiling /home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app/img_publisher.py to img_publisher.cpython-310.pyc
+running install_data
+creating /home/earnest/camera_study/install/camera_app/share/ament_index
+creating /home/earnest/camera_study/install/camera_app/share/ament_index/resource_index
+creating /home/earnest/camera_study/install/camera_app/share/ament_index/resource_index/packages
+copying resource/camera_app -> /home/earnest/camera_study/install/camera_app/share/ament_index/resource_index/packages
+copying package.xml -> /home/earnest/camera_study/install/camera_app/share/camera_app
+running install_egg_info
+Copying ../../build/camera_app/camera_app.egg-info to /home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app-0.0.0-py3.10.egg-info
+running install_scripts
+Installing img_publisher script to /home/earnest/camera_study/install/camera_app/lib/camera_app
+writing list of installed files to '/home/earnest/camera_study/build/camera_app/install.log'

@@ -1,0 +1,51 @@
+[0.247s] Invoking command in '/home/earnest/camera_study/build/camera_app_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/earnest/camera_study/build/camera_app_msgs -- -j12 -l12
+[0.269s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.377s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.583s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.583s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.583s]   camera_app_msgs --arguments-file
+[0.583s]   /home/earnest/camera_study/build/camera_app_msgs/rosidl_adapter__arguments__camera_app_msgs.json
+[0.583s]   --output-dir
+[0.583s]   /home/earnest/camera_study/build/camera_app_msgs/rosidl_adapter/camera_app_msgs
+[0.583s]   --output-file
+[0.583s]   /home/earnest/camera_study/build/camera_app_msgs/rosidl_adapter/camera_app_msgs.idls)
+[0.583s]   returned error code 1:
+[0.583s] 
+[0.584s]   Traceback (most recent call last):
+[0.584s] 
+[0.584s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.584s]       return _run_code(code, main_globals, None,
+[0.584s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.584s]       exec(code, run_globals)
+[0.584s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.584s]       sys.exit(main())
+[0.584s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.584s]       abs_idl_file = convert_to_idl(
+[0.584s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.584s]       return convert_srv_to_idl(
+[0.584s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.584s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.584s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.584s]       request_message = parse_message_string(
+[0.584s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.584s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.584s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.584s]       self.base_type = BaseType(
+[0.585s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.585s]       raise InvalidResourceName(
+[0.585s] 
+[0.585s]   rosidl_adapter.parser.InvalidResourceName: 'capture_Request' is an invalid
+[0.585s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.585s] 
+[0.585s] Call Stack (most recent call first):
+[0.585s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.585s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.585s] 
+[0.585s] [0m
+[0.585s] -- Configuring incomplete, errors occurred!
+[0.585s] See also "/home/earnest/camera_study/build/camera_app_msgs/CMakeFiles/CMakeOutput.log".
+[0.589s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.591s] Invoked command in '/home/earnest/camera_study/build/camera_app_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/earnest/camera_study/build/camera_app_msgs -- -j12 -l12

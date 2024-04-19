@@ -1,0 +1,231 @@
+[0.231s] Invoking command in '/home/earnest/camera_study/build/camera_app_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/earnest/camera_study/install/camera_app:/opt/ros/humble /usr/bin/cmake --build /home/earnest/camera_study/build/camera_app_msgs -- -j12 -l12
+[0.250s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.378s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.382s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.637s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.994s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.013s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.013s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.013s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.022s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.029s] -- Added test 'lint_cmake' to check CMake code style
+[1.029s] -- Added test 'xmllint' to check XML markup files
+[1.031s] -- Configuring done
+[1.051s] -- Generating done
+[1.053s] -- Build files have been written to: /home/earnest/camera_study/build/camera_app_msgs
+[1.073s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.082s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.090s] [  6%] Built target ament_cmake_python_copy_camera_app_msgs
+[1.305s] running egg_info
+[1.306s] writing camera_app_msgs.egg-info/PKG-INFO
+[1.306s] writing dependency_links to camera_app_msgs.egg-info/dependency_links.txt
+[1.306s] writing top-level names to camera_app_msgs.egg-info/top_level.txt
+[1.310s] [  6%] Built target camera_app_msgs__cpp
+[1.310s] reading manifest file 'camera_app_msgs.egg-info/SOURCES.txt'
+[1.310s] writing manifest file 'camera_app_msgs.egg-info/SOURCES.txt'
+[1.319s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.319s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.319s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.324s] [ 19%] [32mBuilding C object CMakeFiles/camera_app_msgs__rosidl_generator_c.dir/rosidl_generator_c/camera_app_msgs/srv/detail/capture__functions.c.o[0m
+[1.355s] [ 19%] Built target ament_cmake_python_build_camera_app_msgs_egg
+[1.382s] [ 22%] [32m[1mLinking C shared library libcamera_app_msgs__rosidl_generator_c.so[0m
+[1.412s] [ 22%] Built target camera_app_msgs__rosidl_generator_c
+[1.423s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.423s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.423s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.563s] [ 35%] [32mBuilding CXX object CMakeFiles/camera_app_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_app_msgs/srv/capture__type_support.cpp.o[0m
+[1.581s] [ 38%] [32mBuilding CXX object CMakeFiles/camera_app_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_app_msgs/srv/detail/capture__type_support.cpp.o[0m
+[1.594s] [ 41%] [32mBuilding CXX object CMakeFiles/camera_app_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_app_msgs/srv/detail/dds_fastrtps/capture__type_support.cpp.o[0m
+[1.663s] [ 45%] [32mBuilding CXX object CMakeFiles/camera_app_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_app_msgs/srv/capture__type_support.cpp.o[0m
+[1.692s] [ 48%] [32mBuilding C object CMakeFiles/camera_app_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_app_msgs/srv/detail/capture__type_support.c.o[0m
+[1.702s] [ 51%] [32m[1mLinking CXX shared library libcamera_app_msgs__rosidl_typesupport_c.so[0m
+[1.705s] [ 54%] [32mBuilding CXX object CMakeFiles/camera_app_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_app_msgs/srv/detail/capture__type_support_c.cpp.o[0m
+[1.728s] [ 58%] [32m[1mLinking C shared library libcamera_app_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.745s] [ 58%] Built target camera_app_msgs__rosidl_typesupport_c
+[1.763s] [ 58%] Built target camera_app_msgs__rosidl_typesupport_introspection_c
+[1.824s] [ 61%] [32m[1mLinking CXX shared library libcamera_app_msgs__rosidl_typesupport_cpp.so[0m
+[1.867s] [ 61%] Built target camera_app_msgs__rosidl_typesupport_cpp
+[1.931s] [ 64%] [32m[1mLinking CXX shared library libcamera_app_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.965s] [ 64%] Built target camera_app_msgs__rosidl_typesupport_introspection_cpp
+[1.970s] [ 67%] [32m[1mLinking CXX shared library libcamera_app_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.005s] [ 70%] [32m[1mLinking CXX shared library libcamera_app_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.051s] [ 70%] Built target camera_app_msgs__rosidl_typesupport_fastrtps_cpp
+[2.080s] [ 70%] Built target camera_app_msgs__rosidl_typesupport_fastrtps_c
+[2.097s] [ 70%] Built target camera_app_msgs
+[2.113s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.400s] [ 74%] Built target camera_app_msgs__py
+[2.417s] [ 77%] [32mBuilding C object CMakeFiles/camera_app_msgs__rosidl_generator_py.dir/rosidl_generator_py/camera_app_msgs/srv/_capture_s.c.o[0m
+[2.497s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/camera_app_msgs/libcamera_app_msgs__rosidl_generator_py.so[0m
+[2.528s] [ 80%] Built target camera_app_msgs__rosidl_generator_py
+[2.537s] [35m[1mConsolidate compiler generated dependencies of target camera_app_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.537s] [35m[1mConsolidate compiler generated dependencies of target camera_app_msgs__rosidl_typesupport_c__pyext[0m
+[2.538s] [35m[1mConsolidate compiler generated dependencies of target camera_app_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.548s] [ 90%] [32mBuilding C object CMakeFiles/camera_app_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/camera_app_msgs/_camera_app_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.548s] [ 90%] [32mBuilding C object CMakeFiles/camera_app_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/camera_app_msgs/_camera_app_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.548s] [ 90%] [32mBuilding C object CMakeFiles/camera_app_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/camera_app_msgs/_camera_app_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.624s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.626s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.630s] [100%] [32m[1mLinking C shared library rosidl_generator_py/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.653s] [100%] Built target camera_app_msgs__rosidl_typesupport_c__pyext
+[2.654s] [100%] Built target camera_app_msgs__rosidl_typesupport_introspection_c__pyext
+[2.658s] [100%] Built target camera_app_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.668s] Invoked command in '/home/earnest/camera_study/build/camera_app_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/earnest/camera_study/install/camera_app:/opt/ros/humble /usr/bin/cmake --build /home/earnest/camera_study/build/camera_app_msgs -- -j12 -l12
+[2.714s] Invoking command in '/home/earnest/camera_study/build/camera_app_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/earnest/camera_study/install/camera_app:/opt/ros/humble /usr/bin/cmake --install /home/earnest/camera_study/build/camera_app_msgs
+[2.720s] -- Install configuration: ""
+[2.720s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/ament_index/resource_index/rosidl_interfaces/camera_app_msgs
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/msg
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail
+[2.721s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__functions.h
+[2.721s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__struct.h
+[2.721s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__type_support.h
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__struct.h
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__functions.h
+[2.721s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__functions.c
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__functions.c
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__type_support.h
+[2.721s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/capture.h
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/capture1.h
+[2.721s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/environment/library_path.sh
+[2.722s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/environment/library_path.dsv
+[2.722s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_generator_c.so
+[2.722s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_generator_c.so" to ""
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/msg
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail
+[2.722s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__rosidl_typesupport_fastrtps_c.h
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__rosidl_typesupport_fastrtps_c.h
+[2.722s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_fastrtps_c.so
+[2.722s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/msg
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv
+[2.722s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail
+[2.723s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__rosidl_typesupport_introspection_c.h
+[2.723s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__type_support.c
+[2.723s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__type_support.c
+[2.723s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__rosidl_typesupport_introspection_c.h
+[2.723s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_introspection_c.so
+[2.723s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.723s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_c.so
+[2.723s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_c.so" to ""
+[2.723s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs
+[2.723s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv
+[2.723s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail
+[2.723s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__builder.hpp
+[2.723s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__builder.hpp
+[2.723s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__struct.hpp
+[2.723s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__struct.hpp
+[2.723s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__traits.hpp
+[2.723s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__traits.hpp
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/capture1.hpp
+[2.724s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/capture.hpp
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/msg
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail
+[2.724s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__rosidl_typesupport_fastrtps_cpp.hpp
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/dds_fastrtps
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__rosidl_typesupport_fastrtps_cpp.hpp
+[2.724s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.724s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail
+[2.724s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__rosidl_typesupport_introspection_cpp.hpp
+[2.724s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__type_support.cpp
+[2.724s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture__type_support.cpp
+[2.725s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/include/camera_app_msgs/camera_app_msgs/srv/detail/capture1__rosidl_typesupport_introspection_cpp.hpp
+[2.725s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_introspection_cpp.so
+[2.725s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.725s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_cpp.so
+[2.725s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_typesupport_cpp.so" to ""
+[2.725s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/environment/pythonpath.sh
+[2.725s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/environment/pythonpath.dsv
+[2.725s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs-0.0.0-py3.10.egg-info
+[2.725s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.725s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.725s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.725s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.725s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs
+[2.726s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/_camera_app_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.726s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/__init__.py
+[2.726s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/libcamera_app_msgs__rosidl_generator_py.so
+[2.726s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/_camera_app_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.726s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.726s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.726s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/_camera_app_msgs_s.ep.rosidl_typesupport_c.c
+[2.726s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.726s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/srv
+[2.726s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/srv/_capture1_s.c
+[2.726s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/srv/__init__.py
+[2.726s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/srv/_capture.py
+[2.726s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/srv/_capture1.py
+[2.727s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/srv/_capture_s.c
+[2.754s] Listing '/home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs'...
+[2.754s] Compiling '/home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/__init__.py'...
+[2.754s] Listing '/home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/srv'...
+[2.754s] Compiling '/home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/srv/__init__.py'...
+[2.754s] Compiling '/home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/srv/_capture.py'...
+[2.757s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.757s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.757s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.758s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.758s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.758s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/local/lib/python3.10/dist-packages/camera_app_msgs/camera_app_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.758s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_generator_py.so
+[2.758s] -- Set runtime path of "/home/earnest/camera_study/install/camera_app_msgs/lib/libcamera_app_msgs__rosidl_generator_py.so" to ""
+[2.759s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/srv/Capture.idl
+[2.759s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/srv/Capture.srv
+[2.759s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/srv/Capture_Request.msg
+[2.759s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/srv/Capture_Response.msg
+[2.759s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/ament_index/resource_index/package_run_dependencies/camera_app_msgs
+[2.759s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/ament_index/resource_index/parent_prefix_path/camera_app_msgs
+[2.759s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/environment/ament_prefix_path.sh
+[2.759s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/environment/ament_prefix_path.dsv
+[2.759s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/environment/path.sh
+[2.759s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/environment/path.dsv
+[2.759s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/local_setup.bash
+[2.759s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/local_setup.sh
+[2.759s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/local_setup.zsh
+[2.760s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/local_setup.dsv
+[2.760s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/package.dsv
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/ament_index/resource_index/packages/camera_app_msgs
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/export_camera_app_msgs__rosidl_generator_cExport.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/export_camera_app_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/export_camera_app_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/export_camera_app_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/camera_app_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/camera_app_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/camera_app_msgs__rosidl_typesupport_cExport.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/camera_app_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/export_camera_app_msgs__rosidl_generator_cppExport.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/export_camera_app_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/export_camera_app_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.760s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/camera_app_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/camera_app_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/camera_app_msgs__rosidl_typesupport_cppExport.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/camera_app_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/export_camera_app_msgs__rosidl_generator_pyExport.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/export_camera_app_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.761s] -- Installing: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/rosidl_cmake-extras.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/camera_app_msgsConfig.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/cmake/camera_app_msgsConfig-version.cmake
+[2.761s] -- Up-to-date: /home/earnest/camera_study/install/camera_app_msgs/share/camera_app_msgs/package.xml
+[2.763s] Invoked command in '/home/earnest/camera_study/build/camera_app_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/earnest/camera_study/install/camera_app:/opt/ros/humble /usr/bin/cmake --install /home/earnest/camera_study/build/camera_app_msgs

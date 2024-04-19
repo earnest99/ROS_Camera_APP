@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from camera_app_msgs/srv/Capture.srv
+// generated code does not contain a copyright notice
+
+
+module camera_app_msgs {
+  module srv {
+    struct Capture_Request {
+      int32 cam;
+
+      int32 rec;
+    };
+    struct Capture_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

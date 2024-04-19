@@ -1,0 +1,26 @@
+[0.457s] Invoking command in '/home/earnest/camera_study/src/camera_app': PYTHONPATH=/home/earnest/camera_study/build/camera_app/prefix_override:/home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_app build --build-base /home/earnest/camera_study/build/camera_app/build install --record /home/earnest/camera_study/build/camera_app/install.log --single-version-externally-managed install_data
+[0.643s] running egg_info
+[0.644s] writing ../../build/camera_app/camera_app.egg-info/PKG-INFO
+[0.644s] writing dependency_links to ../../build/camera_app/camera_app.egg-info/dependency_links.txt
+[0.644s] writing entry points to ../../build/camera_app/camera_app.egg-info/entry_points.txt
+[0.644s] writing requirements to ../../build/camera_app/camera_app.egg-info/requires.txt
+[0.644s] writing top-level names to ../../build/camera_app/camera_app.egg-info/top_level.txt
+[0.645s] reading manifest file '../../build/camera_app/camera_app.egg-info/SOURCES.txt'
+[0.646s] writing manifest file '../../build/camera_app/camera_app.egg-info/SOURCES.txt'
+[0.646s] running build
+[0.646s] running build_py
+[0.646s] copying camera_app/img_publisher.py -> /home/earnest/camera_study/build/camera_app/build/lib/camera_app
+[0.646s] running install
+[0.646s] running install_lib
+[0.647s] copying /home/earnest/camera_study/build/camera_app/build/lib/camera_app/img_publisher.py -> /home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app
+[0.647s] byte-compiling /home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app/img_publisher.py to img_publisher.cpython-310.pyc
+[0.648s] running install_data
+[0.648s] creating /home/earnest/camera_study/install/camera_app/share/camera_app/launch
+[0.648s] creating /home/earnest/camera_study/install/camera_app/share/camera_app/param
+[0.648s] running install_egg_info
+[0.649s] removing '/home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app-0.0.0-py3.10.egg-info' (and everything under it)
+[0.649s] Copying ../../build/camera_app/camera_app.egg-info to /home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages/camera_app-0.0.0-py3.10.egg-info
+[0.650s] running install_scripts
+[0.665s] Installing img_publisher script to /home/earnest/camera_study/install/camera_app/lib/camera_app
+[0.665s] writing list of installed files to '/home/earnest/camera_study/build/camera_app/install.log'
+[0.680s] Invoked command in '/home/earnest/camera_study/src/camera_app' returned '0': PYTHONPATH=/home/earnest/camera_study/build/camera_app/prefix_override:/home/earnest/camera_study/install/camera_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_app build --build-base /home/earnest/camera_study/build/camera_app/build install --record /home/earnest/camera_study/build/camera_app/install.log --single-version-externally-managed install_data
