@@ -24,7 +24,7 @@ ROS2 패키지로 만든 카매라 앱
 > ~/.bashrc 가장 마지막 줄에 추가
 > 
 >
-> ```
+> ```bash
 > alias sb="source ~/.bashrc; echo \"bashrc is reloaded\""
 > alias humble="source /opt/ros/humble/setup.bash; ros_domain; echo \"ROS2 humble is activated!\""
 > alias ros_domain="export ROS_DOMAIN_ID=21; echo \"ROS_DOMAIN_ID= \$ROS_DOMAIN_ID\""
@@ -47,14 +47,14 @@ ROS2 패키지로 만든 카매라 앱
 > ---
 > ### 터미널2 
 > rqt
-> ```
+> ```bash
 > camerastudy
 > rqt
 > ```
 > ---
 > ### 터미널3 
 > service
-> ```
+> ```bash
 > camerastudy
 > ros2 run camera_app capture_and_record 
 > ```
@@ -63,17 +63,17 @@ ROS2 패키지로 만든 카매라 앱
 > 명령
 > 
 > 1.사진 촬영 명령어
-> ```
+> ```bash
 > camerastudy
 > ros2 service call /img_capture camera_app_msgs/srv/Capture "{cam: 1}"
 > ```
 > 2.영상 녹화 명령어
-> ```
+> ```bash
 > ros2 service call /img_capture camera_app_msgs/srv/Capture "{rec: 1}"
 > 
 > ```
 > 3.녹화 중지 명령어
-> ```
+> ```bash
 > ros2 service call /img_capture camera_app_msgs/srv/Capture "{rec: 0}"
 > 
 > ```
